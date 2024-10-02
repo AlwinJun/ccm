@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <style>
+        /* Apply a beautiful gradient background */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #f8b500, #ff8c42);
+            background-repeat: no-repeat;
+        }
+
+        /* Centering and styling the container */
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            max-width: 350px;
+            width: 100%;
+        }
+
+        /* Adding style to the header */
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: bold;
+            border-bottom: 2px solid #f8b500;
+            padding-bottom: 10px;
+        }
+
+        /* Styling the list */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /* Adding style to each list item */
+        li {
+            background-color: #f1f1f1;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 16px;
+            color: #555;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Hover effect for list items */
+        li:hover {
+            background-color: #ffd08c;
+            transform: translateY(-3px);
+        }
+
+        /* Additional styling for small screen responsiveness */
+        @media (max-width: 400px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            li {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Personal Details</h1>
+    <ul>
+        <li>Name: Alwin Jun Mahidlawon</li>
+        <li>Age: 24</li>
+        <li>Occupation: </li>
+        <li>Sex: Male</li>
+    </ul>
+</div>
+
+</body>
+</html>
